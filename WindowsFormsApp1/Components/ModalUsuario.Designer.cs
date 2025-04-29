@@ -72,6 +72,7 @@
             // 
             // lista_roles
             // 
+            this.lista_roles.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lista_roles.FormattingEnabled = true;
             this.lista_roles.Location = new System.Drawing.Point(194, 153);
             this.lista_roles.Name = "lista_roles";
@@ -99,6 +100,7 @@
             // estado_usuario
             // 
             this.estado_usuario.AutoSize = true;
+            this.estado_usuario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.estado_usuario.Location = new System.Drawing.Point(16, 157);
             this.estado_usuario.Name = "estado_usuario";
             this.estado_usuario.Size = new System.Drawing.Size(111, 17);

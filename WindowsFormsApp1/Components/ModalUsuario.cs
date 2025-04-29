@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using DataAccess.Interfaces;
 using DataAccess.Repositories;
 using Entities;
+using Microsoft.Extensions.Logging;
 
 namespace WindowsFormsApp1.Components
 {
@@ -14,6 +15,7 @@ namespace WindowsFormsApp1.Components
     {
         private readonly RoleRepository _rolRepository;
         private readonly IUsuarioRepository _usuarioRepository;
+        private readonly ILogger<ModalUsuario> _logger;
 
         private int? _idUsuarioSeleccionado = null;
         private string _nombreUsuario = "";
@@ -127,6 +129,7 @@ namespace WindowsFormsApp1.Components
 
 
         }
+
 
         private void CerrarFormularioPadre()
         {
